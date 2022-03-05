@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "presentacion-1",
+        "image": "presentacion1.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corruptiveniam, fuga aperiam architecto repudiandae laudantium velit. Voluptasesse porro odit amet, sunt praesentium rerum sed eum aspernatur aperiaminventore itaque?"
+    },
+    {
+        "id": 2,
+        "name": "presentacion-2",
+        "image": "presentancion2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corruptiveniam, fuga aperiam architecto repudiandae laudantium velit. Voluptasesse porro odit amet, sunt praesentium rerum sed eum aspernatur aperiaminventore itaque?"
+    },
+    {
+        "id": 3,
+        "name": "presentacion-3",
+        "image": "presentacion3.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corruptiveniam, fuga aperiam architecto repudiandae laudantium velit. Voluptasesse porro odit amet, sunt praesentium rerum sed eum aspernatur aperiaminventore itaque?"
+    }
+]

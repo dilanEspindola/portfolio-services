@@ -1,0 +1,118 @@
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.nuestra-historia {
+  background: url("../../images/20220222_195733-compressed.jpg");
+  background-position: center;
+}
+
+.nuestra-historia .contenido-historia {
+  background-color: rgba(2, 32, 34, 0.486);
+  padding-top: 20px;
+  padding: 20px 100px;
+}
+.nuestra-historia .contenido-historia h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.nuestra-historia .contenido-historia p {
+  color: rgb(226, 221, 221);
+  line-height: 150%;
+  font-size: 18px;
+}
+.nuestra-historia .contenido-historia .images-historia {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.nuestra-historia .contenido-historia .images-historia img {
+  width: 500px;
+  height: 300px;
+}
+
+.sobre-nosotros {
+  width: 50%;
+  height: auto;
+  background: url("../../images/image1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.sobre-nosotros .contenido-sobre-nosotros {
+  background: rgba(36, 4, 49, 0.301);
+  height: 100%;
+  padding: 20px 50px;
+}
+
+.sobre-nosotros .contenido-sobre-nosotros h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.sobre-nosotros .contenido-sobre-nosotros p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 150%;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+.nuestra-mision {
+  width: 50%;
+  background: url("../../images/presentacion1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.nuestra-mision .contenido-nuestra-mision {
+  background: rgba(0, 0, 0, 0.712);
+  height: 100%;
+  padding: 20px 50px;
+}
+
+.nuestra-mision .contenido-nuestra-mision h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.nuestra-mision .contenido-nuestra-mision p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 150%;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+.btn-contact {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgb(26, 25, 25),
+    rgb(71, 71, 71)
+  );
+}
+
+.btn-contact .link-contact {
+  display: inline-block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.4s linear;
+}
+
+.btn-contact .link-contact:hover {
+  background-color: black;
+  transform: scaleX(1.1);
+}
