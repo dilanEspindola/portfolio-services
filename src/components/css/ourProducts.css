@@ -1,6 +1,20 @@
 .nuestros-productos {
   padding: 50px 20px;
-  background-color: rgb(252, 250, 243);
+  /* background-color: rgb(252, 250, 243); */
+}
+
+.nuestros-productos .icon-arrow {
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 100px;
+  margin-left: 50%;
+  transition: all 0.3s linear;
+}
+.nuestros-productos .icon-arrow:hover {
+  transform: scale(1.2);
+}
+.nuestros-productos .icon-arrow i {
+  font-size: 52px;
 }
 
 .nuestros-productos .info-nuestros-poductos {
@@ -56,4 +70,136 @@
   font-weight: 400;
   margin-top: 20px;
   color: rgb(90, 90, 90);
+}
+
+.our-products-title {
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* mostrando imagenes */
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.single-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(245, 241, 237);
+  border-radius: 6px;
+}
+.single-section .section-content {
+  display: flex;
+  flex-direction: column;
+}
+.single-section .section-content > h3 {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.single-section .content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.single-section .content-img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.single-section .content-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.single-section .content-img .link {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  bottom: -180px;
+  transition: all 0.3s linear;
+}
+
+.single-section .content-img .link .link-to-single-product {
+  background: linear-gradient(
+    to right,
+    rgb(109, 103, 103),
+    rgb(207, 204, 204),
+    rgb(77, 76, 76)
+  );
+  padding: 10px 20px;
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 70px auto;
+  transition: all 0.4s linear;
+}
+.single-section .content-img .link .link-to-single-product:hover {
+  transform: scaleX(1.1);
+}
+
+.single-section .content-img:hover .link {
+  bottom: 0;
+}
+
+/* unico producto */
+.single-product-container {
+  background: rgb(240, 250, 252);
+  display: flex;
+  justify-content: center;
+}
+.single-product-description {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0), 10px 10px 10px rgb(71, 71, 71),
+    15px 15px 15px rgb(87, 86, 86), 20px 20px 20px rgb(97, 97, 97),
+    30px 30px 30px rgb(124, 124, 124);
+  background: linear-gradient(to left, rgb(255, 255, 255), rgb(245, 236, 236));
+  /* background: #  000; */
+  border: 3px solid #fff;
+}
+
+.single-product-description h1 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.single-product-description img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.single-product-description h3 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.single-product-description p {
+  margin: 20px 0;
+  letter-spacing: 1px;
+  line-height: 130%;
+  width: 50%;
 }

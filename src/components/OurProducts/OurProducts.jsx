@@ -1,4 +1,5 @@
 import aos from "aos";
+import { Link } from "react-scroll";
 import { useAos } from "../useAos";
 import { SeccionProductos } from "./SeccionProductos";
 
@@ -25,7 +26,15 @@ export const OurProducts = () => {
           para juntas y más que puedes encontrar en esta sección
         </h3>
       </div>
-      <div className="secciones">
+      <Link
+        className="icon-arrow"
+        to="secciones-productos"
+        smooth={true}
+        duration={500}
+      >
+        <i className="fa-solid fa-arrow-down-long animate__animated animate__fadeInLeftBig"></i>
+      </Link>
+      <div className="secciones" id="secciones-productos">
         <SeccionProductos />
       </div>
     </div>
